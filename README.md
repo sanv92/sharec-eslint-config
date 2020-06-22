@@ -1,6 +1,6 @@
 # Sharec ESLint Configs
 
-Store collection of shareable "ESLint/Prettier/TypeScript" configs in one place and share between projects without any pain
+Store collection of shareable **"ESLint/Prettier/TypeScript"** configs in one place and share between projects without any pain
 
 With **sharec-eslint-config** you can share eslint configs across projects, keep your code up to date and start new projects in one command.
 

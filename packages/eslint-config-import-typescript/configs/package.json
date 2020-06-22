@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "@sanv/sharec-prettier-config": "1.0.19",
-    "@sanv/eslint-config-import": "2.0.1",
+    "@sanv/sharec-tsconfig-config": "1.0.0",
+    "@sanv/eslint-config-import-typescript": "2.0.3",
     "babel-eslint": "10.1.0",
     "eslint": "7.3.0",
     "eslint-plugin-import": "2.21.2",

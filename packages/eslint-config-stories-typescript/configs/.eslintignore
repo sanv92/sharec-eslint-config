@@ -1,0 +1,36 @@
+# Configs
+config
+configs
+.eslintrc.js
+babel.config.js
+prettier.config.js
+tsconfig.js
+webpack.config.js
+jest.config.js
+
+# Distributable
+dist
+build
+*.bundle.js
+*.js.map
+
+# Version control
+.git
+.history
+
+# Storybook
+storybook-static
+.storybook
+
+# Mock server
+mock-server
+server.development.js
+server.production.js
+server.dev.js
+server.prod.js
+
+# Webpack
+webpack
+
+!/src/pages/dashboard/
+.cache

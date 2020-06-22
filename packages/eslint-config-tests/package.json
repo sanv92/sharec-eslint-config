@@ -1,8 +1,8 @@
 {
   "private": false,
-  "name": "@sanv/sharec-eslint-config-playground",
-  "version": "1.0.9",
-  "description": "playground",
+  "name": "@sanv/sharec-eslint-config-tests",
+  "version": "1.0.10",
+  "description": "Sharec Eslint Tests Configuration",
   "publishConfig": {
     "access": "public"
   },
@@ -41,9 +41,6 @@
     "sharec prettier config"
   ],
   "dependencies": {
-    "sharec": "2.2.1"
-  },
-  "peerDependencies": {
     "sharec": "2.2.1"
   }
 }

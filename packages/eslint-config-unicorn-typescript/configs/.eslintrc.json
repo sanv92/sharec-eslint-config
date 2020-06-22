@@ -1,0 +1,36 @@
+{
+  "plugins": [
+    "import"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.ts",
+        "**/*.test.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-unicorn-typescript"
+      ]
+    },
+    {
+      "files": [
+        "**/*.story.ts",
+        "**/*.story.tsx",
+        "**/*.stories.ts",
+        "**/*.stories.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-unicorn-typescript"
+      ]
+    },
+    {
+      "files": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-unicorn-typescript"
+      ]
+    }
+  ]
+}

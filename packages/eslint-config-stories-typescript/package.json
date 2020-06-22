@@ -1,8 +1,8 @@
 {
   "private": false,
-  "name": "@sanv/sharec-eslint-config-import",
+  "name": "@sanv/sharec-eslint-config-stories-typescript",
   "version": "1.0.10",
-  "description": "Sharec Eslint Import Configuration",
+  "description": "Sharec Eslint Storybook Configuration with Typescript Support",
   "publishConfig": {
     "access": "public"
   },

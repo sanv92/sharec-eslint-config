@@ -1,0 +1,69 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "prettier",
+    "import",
+    "unicorn",
+    "react",
+    "jsx-a11y",
+    "@typescript-eslint"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.ts",
+        "**/*.test.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-base",
+        "@sanv/eslint-config-react",
+        "@sanv/eslint-config-unicorn",
+        "@sanv/eslint-config-import",
+        "@sanv/eslint-config-react-typescript",
+        "plugin:prettier/recommended",
+        "prettier/react",
+        "prettier/@typescript-eslint"
+      ]
+    },
+    {
+      "files": [
+        "**/*.story.ts",
+        "**/*.story.tsx",
+        "**/*.stories.ts",
+        "**/*.stories.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-base",
+        "@sanv/eslint-config-react",
+        "@sanv/eslint-config-unicorn",
+        "@sanv/eslint-config-import",
+        "@sanv/eslint-config-stories",
+        "@sanv/eslint-config-stories-typescript",
+        "@sanv/eslint-config-react-typescript",
+        "plugin:prettier/recommended",
+        "prettier/react",
+        "prettier/@typescript-eslint"
+      ]
+    },
+    {
+      "files": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-base",
+        "@sanv/eslint-config-react",
+        "@sanv/eslint-config-unicorn",
+        "@sanv/eslint-config-import",
+        "@sanv/eslint-config-react-typescript",
+        "plugin:prettier/recommended",
+        "prettier/react",
+        "prettier/@typescript-eslint"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "parser": "babel-eslint",
   "plugins": [
-    "import"
+    "prettier"
   ],
   "overrides": [
     {
@@ -9,7 +10,7 @@
         "**/*.test.jsx"
       ],
       "extends": [
-        "@sanv/eslint-config-import"
+        "@sanv/eslint-config-unicorn"
       ]
     },
     {
@@ -20,7 +21,7 @@
         "**/*.stories.jsx"
       ],
       "extends": [
-        "@sanv/eslint-config-import"
+        "@sanv/eslint-config-unicorn"
       ]
     },
     {
@@ -29,7 +30,7 @@
         "./src/**/*.jsx"
       ],
       "extends": [
-        "@sanv/eslint-config-import"
+        "@sanv/eslint-config-unicorn"
       ]
     }
   ]

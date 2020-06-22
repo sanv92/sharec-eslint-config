@@ -1,0 +1,60 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "prettier",
+    "import",
+    "unicorn",
+    "@typescript-eslint"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.ts",
+        "**/*.test.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-base",
+        "@sanv/eslint-config-unicorn",
+        "@sanv/eslint-config-import",
+        "@sanv/eslint-config-tests",
+        "@sanv/eslint-config-tests-typescript",
+        "plugin:prettier/recommended",
+        "prettier/@typescript-eslint"
+      ]
+    },
+    {
+      "files": [
+        "**/*.story.ts",
+        "**/*.story.tsx",
+        "**/*.stories.ts",
+        "**/*.stories.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-base",
+        "@sanv/eslint-config-unicorn",
+        "@sanv/eslint-config-import",
+        "@sanv/eslint-config-stories",
+        "@sanv/eslint-config-stories-typescript",
+        "plugin:prettier/recommended",
+        "prettier/@typescript-eslint"
+      ]
+    },
+    {
+      "files": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+      ],
+      "extends": [
+        "@sanv/eslint-config-base",
+        "@sanv/eslint-config-unicorn",
+        "@sanv/eslint-config-import",
+        "plugin:prettier/recommended",
+        "prettier/@typescript-eslint"
+      ]
+    }
+  ]
+}

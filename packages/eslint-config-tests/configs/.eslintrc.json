@@ -1,7 +1,11 @@
 {
   "parser": "babel-eslint",
   "plugins": [
-    "prettier"
+    "prettier",
+    "import",
+    "unicorn",
+    "react",
+    "jsx-a11y"
   ],
   "overrides": [
     {
@@ -11,10 +15,12 @@
       ],
       "extends": [
         "@sanv/eslint-config-base",
+        "@sanv/eslint-config-react",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-tests",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "prettier/react"
       ]
     },
     {
@@ -26,10 +32,11 @@
       ],
       "extends": [
         "@sanv/eslint-config-base",
+        "@sanv/eslint-config-react",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-import",
-        "@sanv/eslint-config-stories",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "prettier/react"
       ]
     },
     {
@@ -39,9 +46,11 @@
       ],
       "extends": [
         "@sanv/eslint-config-base",
+        "@sanv/eslint-config-react",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-import",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "prettier/react"
       ]
     }
   ]

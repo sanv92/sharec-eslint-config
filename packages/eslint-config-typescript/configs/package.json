@@ -1,17 +1,24 @@
 {
   "devDependencies": {
     "@sanv/sharec-prettier-config": "1.0.19",
+    "@sanv/sharec-tsconfig-config": "1.0.0",
     "@sanv/eslint-config-import": "2.0.1",
     "@sanv/eslint-config-unicorn": "2.0.1",
     "@sanv/eslint-config-base": "2.0.1",
     "@sanv/eslint-config-stories": "2.0.3",
+    "@sanv/eslint-config-stories-typescript": "2.0.3",
     "@sanv/eslint-config-tests": "2.0.3",
+    "@sanv/eslint-config-tests-typescript": "2.0.3",
+    "@typescript-eslint/eslint-plugin": "3.1.0",
+    "@typescript-eslint/parser": "3.1.0",
     "babel-eslint": "10.1.0",
     "eslint": "7.3.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-prettier": "6.11.0",
+    "eslint-import-resolver-typescript": "2.0.0",
     "eslint-plugin-import": "2.21.2",
     "eslint-plugin-prettier": "3.1.3",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "typescript": "3.9.5"
   }
 }

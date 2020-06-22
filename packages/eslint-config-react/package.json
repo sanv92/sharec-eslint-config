@@ -1,8 +1,8 @@
 {
   "private": false,
-  "name": "@sanv/sharec-eslint-config-import",
+  "name": "@sanv/sharec-eslint-config-react",
   "version": "1.0.10",
-  "description": "Sharec Eslint Import Configuration",
+  "description": "Sharec Eslint React Configuration",
   "publishConfig": {
     "access": "public"
   },
