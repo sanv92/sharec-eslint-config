@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@sanv/eslint-config-base",
+  "name": "@sanv/sharec-eslint-config-base",
   "version": "1.0.1",
   "description": "Sharec Eslint Basic Configuration",
   "publishConfig": {
