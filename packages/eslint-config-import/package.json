@@ -39,5 +39,11 @@
     "sharec typescript config",
     "sharec prettier",
     "sharec prettier config"
-  ]
+  ],
+  "dependencies": {
+    "sharec": "2.2.1"
+  },
+  "peerDependencies": {
+    "sharec": "2.2.*"
+  }
 }
