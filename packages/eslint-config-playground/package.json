@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/sharec-eslint-config-playground",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "playground",
   "publishConfig": {
     "access": "public"
