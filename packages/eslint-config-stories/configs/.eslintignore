@@ -1,26 +1,30 @@
-# Configs
-config
-configs
-.eslintrc.js
-babel.config.js
-prettier.config.js
-tsconfig.js
-webpack.config.js
-jest.config.js
+# Bower dependency directory (https://bower.io/)
+bower_components
 
-# Distributable
-dist
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+/build
+build/Release
 build
-*.bundle.js
-*.js.map
 
-# Version control
-.git
-.history
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# End of https://www.gitignore.io/api/node,macos,linux,windows
+dist
+.vscode
+.idea
 
 # Storybook
 storybook-static
 .storybook
+
+# Version control
+.git
+.history
 
 # Mock server
 mock-server
@@ -32,5 +36,18 @@ server.prod.js
 # Webpack
 webpack
 
-!/src/pages/dashboard/
+# Configs
+config
+configs
+.eslintrc.js
+babel.config.js
+prettier.config.js
+tsconfig.js
+webpack.config.js
+jest.config.js
+.stylelintrc.js
+
 .cache
+*.bundle.js
+*.js.map
+public
