@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/sharec-eslint-config-unicorn-typescript",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Sharec Eslint Unicorn Configuration with Typescript Support",
   "publishConfig": {
     "access": "public"
