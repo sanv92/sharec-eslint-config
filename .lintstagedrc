@@ -1,10 +1,8 @@
 {
   "*.{ts,tsx,js,jsx,mjs}": [
-    "prettier --write",
     "git add"
   ],
   "{*.json,.huskyrc,.prettierrc,.lintstagedrc,.eslintrc}": [
-    "prettier --write --parser json",
     "git add"
   ]
 }
