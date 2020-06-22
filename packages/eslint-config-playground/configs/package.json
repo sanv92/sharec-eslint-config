@@ -1,10 +1,6 @@
 {
   "scripts": {
-    "sharec": "sharec",
-    "commit": "npx git-cz"
-  },
-  "engines": {
-    "node": ">=8"
+    "sharec": "sharec"
   },
   "devDependencies": {
     "@sanv/sharec-prettier-config": "1.0.19",
@@ -15,16 +11,6 @@
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-import": "2.21.2",
     "eslint-plugin-prettier": "3.1.4",
-    "prettier": "2.0.5",
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
-    "cz-conventional-changelog": "3.0.2",
-    "husky": "4.2.5",
-    "lint-staged": "10.2.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
+    "prettier": "2.0.5"
   }
 }
