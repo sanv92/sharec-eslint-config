@@ -1,45 +1,43 @@
 {
   "private": false,
-  "name": "@sanv/eslint-config-import",
-  "version": "2.0.1",
-  "description": "Eslint Import Configuration",
-  "main": ".eslintrc.js",
+  "name": "@sanv/sharec-eslint-config-import",
+  "version": "1.0.0",
+  "description": "Sharec Eslint Import Configuration",
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "postinstall": "sharec"
+  },
+  "files": [
+    "configs"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SanderV1992/eslint-config.git"
+    "url": "git+https://github.com/SanderV1992/sharec-eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/SanderV1992/eslint-config/issues"
+    "url": "https://github.com/SanderV1992/sharec-eslint-config/issues"
   },
-  "homepage": "https://github.com/SanderV1992/eslint-config#readme",
+  "homepage": "https://github.com/SanderV1992/sharec-eslint-config#readme",
   "license": "ISC",
   "keywords": [
-    "eslint-config",
-    "eslint",
-    "config",
-    "react eslint config",
-    "react eslint",
-    "react typescript config",
-    "typescript config",
-    "eslint jest config",
-    "eslint jest",
-    "eslint stories config",
-    "eslint stories",
-    "eslint storybook"
-  ],
-  "dependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0 || ^7.2.0",
-    "eslint-plugin-import": "^2.21.2",
-    "prettier": "^2.0.5"
-  },
-  "peerDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0 || ^7.2.0",
-    "eslint-plugin-import": "^2.21.2",
-    "prettier": "^2.0.5"
-  }
+    "sharec",
+    "sharec config",
+    "sharec eslint-config",
+    "sharec-eslint-config",
+    "sharec eslint",
+    "sharec react eslint config",
+    "sharec react eslint",
+    "sharec eslint jest config",
+    "sharec eslint jest",
+    "sharec eslint stories config",
+    "sharec eslint stories",
+    "sharec eslint storybook",
+    "sharec react typescript config",
+    "sharec typescript",
+    "sharec typescript config",
+    "sharec prettier",
+    "sharec prettier config"
+  ]
 }

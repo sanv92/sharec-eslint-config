@@ -1,9 +1,12 @@
 {
   "plugins": ["prettier", "import", "unicorn"],
-  "extends": [
-    "@sanv/eslint-config-base",
-    "@sanv/eslint-config-import",
-    "@sanv/eslint-config-unicorn",
-    "plugin:prettier/recommended"
+  "overrides": [
+    {
+      "files": ["./src/**/*.js", "./src/**/*.jsx"],
+      "extends": [
+        "@sanv/eslint-config-base",
+        "plugin:prettier/recommended"
+      ]
+    }
   ]
 }
