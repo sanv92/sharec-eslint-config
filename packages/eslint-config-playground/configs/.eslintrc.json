@@ -1,0 +1,7 @@
+{
+  "plugins": ["prettier", "import", "unicorn"],
+  "extends": [
+    "@sanv/eslint-config-base",
+    "plugin:prettier/recommended"
+  ]
+}
