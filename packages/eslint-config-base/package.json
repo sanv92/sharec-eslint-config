@@ -1,0 +1,43 @@
+{
+  "private": false,
+  "name": "@sanv/eslint-config-base",
+  "version": "2.0.1",
+  "description": "Sharec Eslint Basic Configuration",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "sharec"
+  },
+  "files": [
+    "configs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanderV1992/sharec-eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanderV1992/sharec-eslint-config/issues"
+  },
+  "homepage": "https://github.com/SanderV1992/sharec-eslint-config#readme",
+  "license": "ISC",
+  "keywords": [
+    "sharec",
+    "sharec config",
+    "sharec eslint-config",
+    "sharec-eslint-config",
+    "sharec eslint",
+    "sharec react eslint config",
+    "sharec react eslint",
+    "sharec eslint jest config",
+    "sharec eslint jest",
+    "sharec eslint stories config",
+    "sharec eslint stories",
+    "sharec eslint storybook",
+    "sharec react typescript config",
+    "sharec typescript",
+    "sharec typescript config",
+    "sharec prettier",
+    "sharec prettier config"
+  ]
+}

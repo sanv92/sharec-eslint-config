@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@sanv/sharec-prettier-config": "1.0.19",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.3.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.0.5"
+  },
+  "sharec": {
+    "config": "@sanv/sharec-prettier-config",
+    "version": "1.0.19"
+  }
+}
