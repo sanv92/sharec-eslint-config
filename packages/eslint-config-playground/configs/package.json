@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "sharec": "sharec"
-  },
   "devDependencies": {
     "@sanv/sharec-prettier-config": "1.0.19",
     "@sanv/eslint-config-base": "2.0.1",
