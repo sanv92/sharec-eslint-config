@@ -44,6 +44,6 @@
     "sharec": "2.2.1"
   },
   "peerDependencies": {
-    "sharec": "2.2.*"
+    "sharec": "2.2.1"
   }
 }
