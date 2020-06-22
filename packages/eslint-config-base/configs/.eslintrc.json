@@ -1,5 +1,9 @@
 {
-  "plugins": ["prettier", "import", "unicorn"],
+  "plugins": [
+    "prettier",
+    "import",
+    "unicorn"
+  ],
   "overrides": [
     {
       "files": ["./src/**/*.js", "./src/**/*.jsx"],

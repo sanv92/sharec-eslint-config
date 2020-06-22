@@ -5,9 +5,5 @@
     "eslint": "7.3.0",
     "eslint-plugin-import": "2.21.2",
     "prettier": "2.0.5"
-  },
-  "sharec": {
-    "config": "@sanv/sharec-prettier-config",
-    "version": "1.0.19"
   }
 }
