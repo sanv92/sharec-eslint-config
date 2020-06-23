@@ -16,9 +16,9 @@
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
+        "@sanv/eslint-config-tests",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-import",
-        "@sanv/eslint-config-tests",
         "plugin:prettier/recommended",
         "prettier/react"
       ]
@@ -33,9 +33,9 @@
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
+        "@sanv/eslint-config-stories",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-import",
-        "@sanv/eslint-config-stories",
         "plugin:prettier/recommended",
         "prettier/react"
       ]

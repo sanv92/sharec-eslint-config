@@ -43,13 +43,13 @@
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
+        "@sanv/eslint-config-stories",
+        "@sanv/eslint-config-stories-typescript",
+        "@sanv/eslint-config-react-typescript",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-unicorn-typescript",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-import-typescript",
-        "@sanv/eslint-config-stories",
-        "@sanv/eslint-config-stories-typescript",
-        "@sanv/eslint-config-react-typescript",
         "plugin:prettier/recommended",
         "prettier/react",
         "prettier/@typescript-eslint"
@@ -63,11 +63,11 @@
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
+        "@sanv/eslint-config-react-typescript",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-unicorn-typescript",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-import-typescript",
-        "@sanv/eslint-config-react-typescript",
         "plugin:prettier/recommended",
         "prettier/react",
         "prettier/@typescript-eslint"

@@ -11,9 +11,9 @@
       ],
       "extends": [
         "@sanv/eslint-config-base",
+        "@sanv/eslint-config-tests",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-import",
-        "@sanv/eslint-config-tests",
         "plugin:prettier/recommended"
       ]
     },
@@ -26,9 +26,9 @@
       ],
       "extends": [
         "@sanv/eslint-config-base",
+        "@sanv/eslint-config-stories",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-import",
-        "@sanv/eslint-config-stories",
         "plugin:prettier/recommended"
       ]
     },

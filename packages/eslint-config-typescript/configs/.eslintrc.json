@@ -18,12 +18,12 @@
       ],
       "extends": [
         "@sanv/eslint-config-base",
+        "@sanv/eslint-config-tests",
+        "@sanv/eslint-config-tests-typescript",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-unicorn-typescript",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-import-typescript",
-        "@sanv/eslint-config-tests",
-        "@sanv/eslint-config-tests-typescript",
         "plugin:prettier/recommended",
         "prettier/@typescript-eslint"
       ]
@@ -37,12 +37,12 @@
       ],
       "extends": [
         "@sanv/eslint-config-base",
+        "@sanv/eslint-config-stories",
+        "@sanv/eslint-config-stories-typescript",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-unicorn-typescript",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-import-typescript",
-        "@sanv/eslint-config-stories",
-        "@sanv/eslint-config-stories-typescript",
         "plugin:prettier/recommended",
         "prettier/@typescript-eslint"
       ]

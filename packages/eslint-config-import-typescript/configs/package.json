@@ -4,7 +4,7 @@
     "@sanv/sharec-tsconfig-config": "1.0.1",
     "@sanv/eslint-config-import-typescript": "2.0.3",
     "babel-eslint": "10.1.0",
-    "eslint": "7.3.0",
+    "eslint": "7.2.0",
     "eslint-plugin-import": "2.21.2",
     "prettier": "2.0.5"
   }
