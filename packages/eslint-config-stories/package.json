@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/sharec-eslint-config-stories",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Sharec Eslint Storybook Configuration",
   "publishConfig": {
     "access": "public"
