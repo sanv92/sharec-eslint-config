@@ -1,12 +1,12 @@
 {
-  "plugins": [
-    "import"
-  ],
   "overrides": [
     {
       "files": [
         "**/*.test.ts",
         "**/*.test.tsx"
+      ],
+      "plugins": [
+        "import"
       ],
       "extends": [
         "@sanv/eslint-config-import-typescript"
@@ -19,6 +19,9 @@
         "**/*.stories.ts",
         "**/*.stories.tsx"
       ],
+      "plugins": [
+        "import"
+      ],
       "extends": [
         "@sanv/eslint-config-import-typescript"
       ]
@@ -27,6 +30,9 @@
       "files": [
         "./src/**/*.ts",
         "./src/**/*.tsx"
+      ],
+      "plugins": [
+        "import"
       ],
       "extends": [
         "@sanv/eslint-config-import-typescript"

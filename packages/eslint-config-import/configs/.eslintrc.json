@@ -1,12 +1,12 @@
 {
-  "plugins": [
-    "import"
-  ],
   "overrides": [
     {
       "files": [
         "**/*.test.js",
         "**/*.test.jsx"
+      ],
+      "plugins": [
+        "import"
       ],
       "extends": [
         "@sanv/eslint-config-import"
@@ -19,6 +19,9 @@
         "**/*.stories.js",
         "**/*.stories.jsx"
       ],
+      "plugins": [
+        "import"
+      ],
       "extends": [
         "@sanv/eslint-config-import"
       ]
@@ -27,6 +30,9 @@
       "files": [
         "./src/**/*.js",
         "./src/**/*.jsx"
+      ],
+      "plugins": [
+        "import"
       ],
       "extends": [
         "@sanv/eslint-config-import"

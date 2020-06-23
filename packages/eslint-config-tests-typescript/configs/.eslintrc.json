@@ -1,23 +1,23 @@
 {
-  "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "prettier",
-    "import",
-    "unicorn",
-    "react",
-    "jsx-a11y",
-    "@typescript-eslint"
-  ],
-  "parserOptions": {
-    "project": "./tsconfig.json",
-    "sourceType": "module"
-  },
   "overrides": [
     {
       "files": [
         "**/*.test.ts",
         "**/*.test.tsx"
       ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": [
+        "prettier",
+        "import",
+        "unicorn",
+        "react",
+        "jsx-a11y",
+        "@typescript-eslint"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+      },
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
@@ -40,6 +40,19 @@
         "**/*.stories.ts",
         "**/*.stories.tsx"
       ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": [
+        "prettier",
+        "import",
+        "unicorn",
+        "react",
+        "jsx-a11y",
+        "@typescript-eslint"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+      },
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
@@ -58,6 +71,19 @@
         "./src/**/*.ts",
         "./src/**/*.tsx"
       ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": [
+        "prettier",
+        "import",
+        "unicorn",
+        "react",
+        "jsx-a11y",
+        "@typescript-eslint"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+      },
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",

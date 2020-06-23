@@ -1,13 +1,13 @@
 {
-  "parser": "babel-eslint",
-  "plugins": [
-    "prettier"
-  ],
   "overrides": [
     {
       "files": [
         "**/*.test.js",
         "**/*.test.jsx"
+      ],
+      "parser": "babel-eslint",
+      "plugins": [
+        "prettier"
       ],
       "extends": [
         "@sanv/eslint-config-unicorn"
@@ -20,6 +20,10 @@
         "**/*.stories.js",
         "**/*.stories.jsx"
       ],
+      "parser": "babel-eslint",
+      "plugins": [
+        "prettier"
+      ],
       "extends": [
         "@sanv/eslint-config-unicorn"
       ]
@@ -28,6 +32,10 @@
       "files": [
         "./src/**/*.js",
         "./src/**/*.jsx"
+      ],
+      "parser": "babel-eslint",
+      "plugins": [
+        "prettier"
       ],
       "extends": [
         "@sanv/eslint-config-unicorn"

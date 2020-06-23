@@ -1,33 +1,33 @@
 {
-  "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "prettier",
-    "import",
-    "unicorn",
-    "react",
-    "jsx-a11y",
-    "@typescript-eslint"
-  ],
-  "parserOptions": {
-    "project": "./tsconfig.json",
-    "sourceType": "module"
-  },
   "overrides": [
     {
       "files": [
         "**/*.test.ts",
         "**/*.test.tsx"
       ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": [
+        "prettier",
+        "import",
+        "unicorn",
+        "react",
+        "jsx-a11y",
+        "@typescript-eslint"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+      },
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
+        "@sanv/eslint-config-tests",
+        "@sanv/eslint-config-tests-typescript",
+        "@sanv/eslint-config-react-typescript",
         "@sanv/eslint-config-unicorn",
         "@sanv/eslint-config-unicorn-typescript",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-import-typescript",
-        "@sanv/eslint-config-tests",
-        "@sanv/eslint-config-tests-typescript",
-        "@sanv/eslint-config-react-typescript",
         "plugin:prettier/recommended",
         "prettier/react",
         "prettier/@typescript-eslint"
@@ -40,6 +40,19 @@
         "**/*.stories.ts",
         "**/*.stories.tsx"
       ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": [
+        "prettier",
+        "import",
+        "unicorn",
+        "react",
+        "jsx-a11y",
+        "@typescript-eslint"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+      },
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
@@ -60,6 +73,19 @@
         "./src/**/*.ts",
         "./src/**/*.tsx"
       ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": [
+        "prettier",
+        "import",
+        "unicorn",
+        "react",
+        "jsx-a11y",
+        "@typescript-eslint"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+      },
       "extends": [
         "@sanv/eslint-config-base",
         "@sanv/eslint-config-react",
