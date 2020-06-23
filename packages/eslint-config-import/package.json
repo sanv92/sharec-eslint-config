@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@sanv/sharec-eslint-config-import",
-  "version": "2.0.2",
+  "version": "2.0.5",
   "description": "Sharec Eslint Import Configuration",
   "publishConfig": {
     "access": "public"
