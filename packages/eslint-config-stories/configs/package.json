@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@sanv/sharec-prettier-config": "1.0.19",
+    "@sanv/sharec-prettier-config": "1.0.20",
     "@sanv/eslint-config-import": "2.0.1",
     "@sanv/eslint-config-unicorn": "2.0.1",
     "@sanv/eslint-config-base": "2.0.1",
