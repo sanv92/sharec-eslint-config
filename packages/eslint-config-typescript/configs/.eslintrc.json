@@ -24,6 +24,7 @@
         "@sanv/eslint-config-unicorn-typescript",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-import-typescript",
+        "@sanv/eslint-config-typescript",
         "plugin:prettier/recommended",
         "prettier/@typescript-eslint"
       ]
@@ -54,6 +55,7 @@
         "@sanv/eslint-config-unicorn-typescript",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-import-typescript",
+        "@sanv/eslint-config-typescript",
         "plugin:prettier/recommended",
         "prettier/@typescript-eslint"
       ]
@@ -80,6 +82,7 @@
         "@sanv/eslint-config-unicorn-typescript",
         "@sanv/eslint-config-import",
         "@sanv/eslint-config-import-typescript",
+        "@sanv/eslint-config-typescript",
         "plugin:prettier/recommended",
         "prettier/@typescript-eslint"
       ]
