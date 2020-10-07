@@ -1,72 +1,66 @@
 {
-  "private": true,
-  "name": "@sanv/sharec-eslint-config",
-  "description": "Store collection of shareable \"ESLint/Prettier/TypeScript\" configs in one place and share between projects without any pain",
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "packages"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SanderV1992/sharec-eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/SanderV1992/sharec-eslint-config/issues"
-  },
-  "homepage": "https://github.com/SanderV1992/sharec-eslint-config#readme",
-  "license": "ISC",
-  "keywords": [
-    "sharec",
-    "sharec config",
-    "sharec eslint-config",
-    "sharec-eslint-config",
-    "sharec eslint",
-    "sharec react eslint config",
-    "sharec react eslint",
-    "sharec eslint jest config",
-    "sharec eslint jest",
-    "sharec eslint stories config",
-    "sharec eslint stories",
-    "sharec eslint storybook",
-    "sharec react typescript config",
-    "sharec typescript",
-    "sharec typescript config",
-    "sharec prettier",
-    "sharec prettier config"
-  ],
-  "scripts": {
-    "test": "lerna exec 'npm test'",
-    "postinstall": "lerna bootstrap",
-    "prepublishOnly": "lerna exec 'npm test'",
-    "publish": "lerna publish",
-    "commit": "npx git-cz",
-    "prettier": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\"",
-    "sharec": "sharec"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
-    "@sanv/sharec-config": "^1.0.19",
-    "cz-conventional-changelog": "3.0.2",
-    "husky": "4.2.5",
-    "lerna": "3.22.0",
-    "lint-staged": "10.2.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "sharec": {
-    "config": "@sanv/sharec-config",
-    "version": "1.0.19"
-  },
-  "engines": {
-    "node": ">=8"
-  }
+	"private": true,
+	"name": "@sanv/sharec-eslint-config",
+	"description": "Store collection of shareable \"ESLint/Prettier/TypeScript\" configs in one place and share between projects without any pain",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"packages"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SanderV1992/sharec-eslint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/SanderV1992/sharec-eslint-config/issues"
+	},
+	"homepage": "https://github.com/SanderV1992/sharec-eslint-config#readme",
+	"license": "ISC",
+	"keywords": [
+		"sharec",
+		"sharec config",
+		"sharec eslint-config",
+		"sharec-eslint-config",
+		"sharec eslint",
+		"sharec react eslint config",
+		"sharec react eslint",
+		"sharec eslint jest config",
+		"sharec eslint jest",
+		"sharec eslint stories config",
+		"sharec eslint stories",
+		"sharec eslint storybook",
+		"sharec react typescript config",
+		"sharec typescript",
+		"sharec typescript config",
+		"sharec prettier",
+		"sharec prettier config"
+	],
+	"scripts": {
+		"test": "lerna exec 'npm test'",
+		"postinstall": "lerna bootstrap",
+		"prepublishOnly": "lerna exec 'npm test'",
+		"publish": "lerna publish",
+		"commit": "npx git-cz",
+		"prettier": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\""
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"@commitlint/cli": "8.3.5",
+		"@commitlint/config-conventional": "8.3.4",
+		"cz-conventional-changelog": "3.0.2",
+		"husky": "4.2.5",
+		"lerna": "3.22.0",
+		"lint-staged": "10.2.2"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
+	"engines": {
+		"node": ">=8"
+	}
 }

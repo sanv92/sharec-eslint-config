@@ -41,6 +41,6 @@
     "sharec prettier config"
   ],
   "dependencies": {
-    "sharec": "2.2.1"
+    "sharec": "2.5.1"
   }
 }
