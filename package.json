@@ -10,12 +10,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/SanderV1992/sharec-eslint-config.git"
+		"url": "git+https://github.com/sanderv1992/sharec-eslint-config.git"
 	},
 	"bugs": {
-		"url": "https://github.com/SanderV1992/sharec-eslint-config/issues"
+		"url": "https://github.com/sanderv1992/sharec-eslint-config/issues"
 	},
-	"homepage": "https://github.com/SanderV1992/sharec-eslint-config#readme",
+	"homepage": "https://github.com/sanderv1992/sharec-eslint-config#readme",
 	"license": "ISC",
 	"keywords": [
 		"sharec",
